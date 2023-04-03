@@ -1,0 +1,20 @@
+@yellow: #fffa19;
+@red: #E83914;
+@green: #7CE859;
+
+.margenes(@top: 0px, @bottom: 0px){
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+.myHeader {
+    background-color: @yellow;
+    color:black;
+    .margenes(50px, 0px);
+}
+
+.myFooter {
+    padding: 10px 10px 0 10px;
+    .margenes(50px, 0px);
+    background-color: @yellow;
+}

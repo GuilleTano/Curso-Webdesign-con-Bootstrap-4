@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Titulo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/index.def3592aa66b4117d8e9.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hoteles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="precios.html">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terminos y condiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="myHeader">
+        <div class="border py-4 px-5">
+            <div class="container">
+                <h1 class="display-5 fw-bold">Hoteles</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <nav aria-label="breadcrumb" class="mt-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+
+        <form>
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-sm-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo">
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-9">
+                    <label for="direccion" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion">
+                </div>
+                <div class="mb-3 col-sm-3">
+                    <label for="ciudad" class="form-label">Ciudad</label>
+                    <select class="form-select" id="ciudad" placeholder="ciudad">
+                        <option selected>Metropolis</option>
+                        <option>Saltadilla</option>
+                        <option>Springfield</option>
+                        <option>Gotica</option>
+                        <option>MAIAMEEEE</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="comentario" class="form-label">Comentario</label>
+                <textarea class="form-control" id="comentario" rows="5"></textarea>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="contact-check">
+                <label class="form-check-label" for="contact-check">Quiero que me contacten</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+
+    </main>
+
+    <footer class="myFooter border">
+        <div class="d-flex flex-wrap flex-row align-items-start">
+
+            <div class="col-sm-4 d-flex flex-column ps-5 pt-3">
+                <a href="https://www.facebook.com" class="fas fa-2x mb-1"><i
+                        class="fa-brands fa-square-facebook"></i></i></a>
+                <a href="https://www.Twitter.com" class="fas fa-2x mb-1"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.Instagram.com" class="fas fa-2x mb-1"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <address>
+                    <h2>Oficina Central</h2>
+                    <p><i class="fa-sharp fa-solid fa-house"></i> Tucuman 834, CABA, Argentina</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i> +59874236584</p>
+                    <p><i class="fa-solid fa-envelope"></i> contacto@guiahoteles.com</p>
+                </address>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="about.html">Nosotros</a>
+                <a href="precios.html">Precios</a>
+                <a href="#">Terminos y condiciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="js/main.c1a5d299773d52d52866.js"></script>
+
+</html>
